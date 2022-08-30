@@ -2,10 +2,6 @@ const generateCode = require('./generateCode')
 let max = 0
 const foo = require('./script')
 async function run() {
-    // const m = require('/Users/gileck/projects/thunderbolt-simple/thunderbolt/packages/thunderbolt-becky/dist/statics/thunderbolt-platform-simple.bundle.js')
-    // const res = await m().execute()
-    // const foo = require('./script')
-    // require('./script')()
     foo()
     return {}
 }
