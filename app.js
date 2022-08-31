@@ -20,6 +20,4 @@ async function test() {
         await new Promise(r => setTimeout(r, 30))
     }
 }
-
 test()
-// run()
